@@ -54,16 +54,24 @@ for (int a = -number2; a <= number2; a++)
     System.Console.Write(a + " ");
 }
 */
+//Внутри класса Answer напишите метод CompareNumbers, который на вход принимает два числа и выводит, какое число большее, а какое меньшее.
 using System;
+using System.Runtime.InteropServices.Marshalling;
 
 public class Answer {
     static void CompareNumbers(int firstNumber, int secondNumber)
     {
         // Введите свое решение ниже
-
-
+        if (firstNumber == secondNumber){
+            System.Console.Write($"Число '{firstNumber}' равно числу '{secondNumber}'");
+        }
+        else{
+            if (firstNumber > secondNumber){
+                System.Console.Write($"Число '{firstNumber}' больше чем '{secondNumber}'");
+            }
+            else System.Console.Write($"Число '{secondNumber}' больше чем '{firstNumber}'");
+        }
     }
-
 
   // Не удаляйте и не меняйте метод Main! 
     static public void Main(string[] args) {
@@ -74,8 +82,8 @@ public class Answer {
             secondNumber = int.Parse(args[1]);
         } else {
            // Здесь вы можете поменять значения для отправки кода на Выполнение
-            firstNumber = 5;
-            secondNumber = 5;
+            firstNumber = 8;
+            secondNumber = 6;
         }
 
         // Не удаляйте строки ниже

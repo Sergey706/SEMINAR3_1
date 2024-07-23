@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\OgurtsovSe\\Desktop\\Seminar3_1\\Lesson1\\Lesson1.csproj": {}
+    "C:\\Users\\OgurtsovSe\\Desktop\\Seminar3_1\\lesson1\\Lesson1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\OgurtsovSe\\Desktop\\Seminar3_1\\Lesson1\\Lesson1.csproj": {
+    "C:\\Users\\OgurtsovSe\\Desktop\\Seminar3_1\\lesson1\\Lesson1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\OgurtsovSe\\Desktop\\Seminar3_1\\Lesson1\\Lesson1.csproj",
+        "projectUniqueName": "C:\\Users\\OgurtsovSe\\Desktop\\Seminar3_1\\lesson1\\Lesson1.csproj",
         "projectName": "Lesson1",
-        "projectPath": "C:\\Users\\OgurtsovSe\\Desktop\\Seminar3_1\\Lesson1\\Lesson1.csproj",
+        "projectPath": "C:\\Users\\OgurtsovSe\\Desktop\\Seminar3_1\\lesson1\\Lesson1.csproj",
         "packagesPath": "C:\\Users\\OgurtsovSe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\OgurtsovSe\\Desktop\\Seminar3_1\\Lesson1\\obj\\",
+        "outputPath": "C:\\Users\\OgurtsovSe\\Desktop\\Seminar3_1\\lesson1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\OgurtsovSe\\AppData\\Roaming\\NuGet\\NuGet.Config"
