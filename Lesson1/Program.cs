@@ -54,6 +54,7 @@ for (int a = -number2; a <= number2; a++)
     System.Console.Write(a + " ");
 }
 */
+/*
 //Внутри класса Answer напишите метод CompareNumbers, который на вход принимает два числа и выводит, какое число большее, а какое меньшее.
 using System;
 using System.Runtime.InteropServices.Marshalling;
@@ -63,13 +64,13 @@ public class Answer {
     {
         // Введите свое решение ниже
         if (firstNumber == secondNumber){
-            System.Console.Write($"Число '{firstNumber}' равно числу '{secondNumber}'");
+            System.Console.Write($"Числа равны");
         }
         else{
             if (firstNumber > secondNumber){
-                System.Console.Write($"Число '{firstNumber}' больше чем '{secondNumber}'");
+                System.Console.Write($"Первое число больше");
             }
-            else System.Console.Write($"Число '{secondNumber}' больше чем '{firstNumber}'");
+            else System.Console.Write($"Второе число больше");
         }
     }
 
@@ -82,11 +83,52 @@ public class Answer {
             secondNumber = int.Parse(args[1]);
         } else {
            // Здесь вы можете поменять значения для отправки кода на Выполнение
-            firstNumber = 8;
-            secondNumber = 6;
+            firstNumber = 7;
+            secondNumber = 9;
         }
 
         // Не удаляйте строки ниже
         CompareNumbers(firstNumber, secondNumber);
     }
 }
+*/
+
+/*//Внутри класса Answer напишите метод FindMax, который принимает на вход три числа и выдаёт максимальное из этих чисел
+using System;
+
+public class Answer {
+    
+  static int FindMax(int a, int b, int c)
+    {
+      // Введите свое решение ниже
+        if (a >= b && a >= c)
+        {
+           return a; 
+        }
+        else
+        {
+            if (b >= a && b >= c) return b;
+            else return c;
+        }
+    }
+
+  // Не удаляйте и не меняйте метод Main! 
+  static public void Main(string[] args) {
+        int a, b, c;
+
+        if (args.Length >= 3) {
+           a = int.Parse(args[0]);
+           b = int.Parse(args[1]);
+           c = int.Parse(args[2]);
+        } else {
+           // Здесь вы можете поменять значения для отправки кода на Выполнение
+           a = 6;
+           b = 5;
+           c = 4;
+        }
+
+        // Не удаляйте строки ниже
+        int result = FindMax(a, b, c);
+        System.Console.WriteLine($"{result}");
+    }
+}*/
